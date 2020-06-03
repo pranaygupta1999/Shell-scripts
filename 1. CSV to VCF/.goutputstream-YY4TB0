@@ -1,0 +1,51 @@
+#!/bin/bash
+writeToVCF(){
+    local name="${person[0]}"
+    local phone="${person[1]}"
+    if  [ -n "$phone" ] && [ -n "$name" ];then
+        count="$(($count+1))"
+    else
+        echo -e "\e[31m\e[1mError:\e[0m Cant write contact $count" >&2
+        echo -e "\e[93m\e[1mSkipping: \e[0m ==== contact $count ====="
+        skips="$(($skips+1))"
+    fi
+    
+}
+validate(){
+
+    if test -n "$1";then
+        if   ! [ -r $1 ]  ;then
+            echo -e "\e[41m\e[1mERROR:\e[0m\e[31m Can't read from the file specified\e[0m\n" >&2
+            echo -e "\tEither the file \e[7m$1\e[27m \e[1m\e[31mdoes not exist\e[0m or is not readable"
+            return 1
+        fi
+
+    else
+        echo -e "\e[41m\e[1mERROR:\e[0m\e[31m No file provided\e[0m" >&2
+        echo -e "\e[93mCreated by \e[5m\e[1mPranay Gupta\e[0m"
+        echo -e "\e[1mUSAGE\e[0m"
+        printf "\tCall the script as \e[7m./script <filename>.csv\e[0m\n"
+        return 1
+    fi
+    return 0
+}
+
+if ! validate "$1";then
+    exit
+fi
+contact=`cat $1`
+IFS=$'\n'
+read -r -d '' -a contacts <<< "$contact"
+
+len="${#contacts[@]}"
+contacts=("${contacts[@]:1:$len}")
+count=$((0))
+skips=$((0))
+printf "" > contact.vcf
+for i in ${contacts[@]}; do
+    IFS=','
+    read -r -d $'\n' -a person <<< "$i"
+    writeToVCF
+done
+echo -e "\n\e[1m\e[33m\e[5mDONE...\e[0m"
+echo -e "With \e[33m$count Success\e[0m and \e[31m$skips Skips \e[0m"

@@ -1,0 +1,6 @@
+temp1/text1.txt
+temp1/text2.txt
+
+temp1/help.c
+temp1/help1.c
+

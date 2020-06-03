@@ -1,0 +1,344 @@
+﻿1
+00:00:07,928 --> 00:00:10,347
+One of the top chefs from Pasta Palace
+
+2
+00:00:10,348 --> 00:00:13,968
+has been kidnapped by operatives 
+from Burger Bazaar
+
+3
+00:00:13,968 --> 00:00:18,128
+hoping to learn the location of their 
+secret sauce recipe.
+
+4
+00:00:18,128 --> 00:00:20,435
+Little do they know that a third party—
+
+5
+00:00:20,435 --> 00:00:21,794
+Sausage Saloon—
+
+6
+00:00:21,795 --> 00:00:25,055
+has sent you to take advantage 
+of the situation.
+
+7
+00:00:25,055 --> 00:00:29,775
+As their top spy, your skills range from 
+infiltration and subterfuge,
+
+8
+00:00:29,775 --> 00:00:33,945
+to safecracking and reading faces 
+for signs of deception.
+
+9
+00:00:33,945 --> 00:00:38,010
+You’ve tracked the captors to where 
+they’re holding the chef prisoner.
+
+10
+00:00:38,010 --> 00:00:42,029
+From your hiding spot, you can see him 
+on the other side of the glass,
+
+11
+00:00:42,029 --> 00:00:45,441
+while in front of you an interrogator 
+wearing headphones
+
+12
+00:00:45,441 --> 00:00:47,561
+speaks into a microphone.
+
+13
+00:00:47,561 --> 00:00:50,821
+“We already know the recipe is on the 
+13th floor of the bank vault,
+
+14
+00:00:50,821 --> 00:00:54,940
+in a safe deposit box numbered between 
+13 and 1300.
+
+15
+00:00:54,941 --> 00:00:59,101
+Now tell us… Is the number less than 500?”
+
+16
+00:00:59,101 --> 00:01:02,881
+You can’t hear the chef’s answer, 
+but you can see that he’s lying.
+
+17
+00:01:02,881 --> 00:01:06,206
+The interrogator, however, falls for it.
+
+18
+00:01:06,206 --> 00:01:09,806
+He follows up by asking, 
+“Is it a perfect square?”
+
+19
+00:01:09,806 --> 00:01:14,026
+Again you can’t hear the answer 
+but can tell the chef is lying,
+
+20
+00:01:14,026 --> 00:01:16,947
+while the interrogator takes 
+him at his word.
+
+21
+00:01:16,947 --> 00:01:19,937
+He then asks, “Is it a perfect cube?”
+
+22
+00:01:19,937 --> 00:01:23,077
+This time the chef answers truthfully.
+
+23
+00:01:23,077 --> 00:01:25,357
+The interrogator thinks 
+for a minute and says,
+
+24
+00:01:25,357 --> 00:01:29,607
+“Good. Now if you just tell me whether 
+or not the number’s second digit is a one,
+
+25
+00:01:29,607 --> 00:01:31,293
+we’ll be done here.”
+
+26
+00:01:31,293 --> 00:01:33,443
+But as the chef starts to answer,
+
+27
+00:01:33,443 --> 00:01:37,443
+the interrogator stands up, 
+blocking your view.
+
+28
+00:01:37,443 --> 00:01:39,673
+Within moments he rushes out of the room,
+
+29
+00:01:39,673 --> 00:01:44,623
+announcing that he’s got the answer and 
+is sending agents to retrieve the recipe.
+
+30
+00:01:44,623 --> 00:01:48,503
+You know that the Burger Bazaar people 
+have the wrong box number.
+
+31
+00:01:48,503 --> 00:01:52,363
+But can you figure out the right one 
+and retrieve the recipe yourself?
+
+32
+00:01:52,363 --> 00:01:54,623
+Pause the video to figure it 
+out for yourself.
+
+33
+00:01:54,623 --> 00:01:55,333
+Answer in 3
+
+34
+00:01:55,333 --> 00:01:58,123
+Answer in 2
+
+35
+00:01:58,123 --> 00:02:00,803
+Answer in 1
+
+36
+00:02:00,803 --> 00:02:03,103
+The key here is to work backwards.
+
+37
+00:02:03,103 --> 00:02:06,223
+We don’t know what the chef answers 
+to the final question
+
+38
+00:02:06,223 --> 00:02:08,173
+or whether he answers truthfully.
+
+39
+00:02:08,173 --> 00:02:11,373
+But we do know that by the time 
+the interrogator asks it,
+
+40
+00:02:11,373 --> 00:02:14,143
+he’s narrowed the options 
+down to two numbers–
+
+41
+00:02:14,143 --> 00:02:18,403
+one where the second digit is 1, 
+and one where it isn’t.
+
+42
+00:02:18,403 --> 00:02:22,307
+Our goal, then, is to find answers to the 
+previous questions
+
+43
+00:02:22,307 --> 00:02:25,047
+that lead to just two possibilities.
+
+44
+00:02:25,047 --> 00:02:26,817
+Of the three constraints offered,
+
+45
+00:02:26,817 --> 00:02:31,537
+the one that narrows our options the most 
+is if the number is a perfect cube.
+
+46
+00:02:31,537 --> 00:02:36,352
+That leaves us with only eight answers 
+between 13 and 1300.
+
+47
+00:02:36,352 --> 00:02:41,303
+So let’s assume the answer to the 
+third question was a truthful YES.
+
+48
+00:02:41,303 --> 00:02:43,474
+Now, let’s look at the second question.
+
+49
+00:02:43,474 --> 00:02:46,944
+If the chef answered YES to the number 
+being a perfect square,
+
+50
+00:02:46,944 --> 00:02:52,263
+it would narrow the interrogator’s options
+to just 64 and 729–
+
+51
+00:02:52,264 --> 00:02:57,007
+the only numbers in our range that are 
+both a square and a cube.
+
+52
+00:02:57,007 --> 00:03:00,225
+But neither of these has a 1 
+as the second digit.
+
+53
+00:03:00,225 --> 00:03:04,295
+So the given answer to the second question
+must’ve been NO.
+
+54
+00:03:04,295 --> 00:03:09,075
+And that also means we can eliminate these
+two squares from the interrogator's list,
+
+55
+00:03:09,075 --> 00:03:12,204
+leaving only six numbers.
+
+56
+00:03:12,205 --> 00:03:16,295
+Now for the first question, 
+which allows us to divide this list.
+
+57
+00:03:16,295 --> 00:03:20,091
+If the chef answered YES to the number 
+being less than 500,
+
+58
+00:03:20,092 --> 00:03:22,862
+we’d have four options, which is too many.
+
+59
+00:03:22,862 --> 00:03:26,802
+But a NO leaves us with two numbers 
+greater than 500,
+
+60
+00:03:26,802 --> 00:03:30,792
+one of which does have 
+a 1 as its second digit.
+
+61
+00:03:30,792 --> 00:03:34,532
+We don’t know which of these numbers 
+the interrogator thinks is correct.
+
+62
+00:03:34,532 --> 00:03:35,772
+But that doesn’t matter–
+
+63
+00:03:35,772 --> 00:03:38,952
+remember, his conclusion 
+was based on lies.
+
+64
+00:03:38,952 --> 00:03:44,152
+You, on the other hand, are now in a 
+position to reconstruct the truth.
+
+65
+00:03:44,152 --> 00:03:48,702
+First, the chef said the number was 
+greater than 500 but lied,
+
+66
+00:03:48,704 --> 00:03:51,904
+meaning it’s actually less than 500.
+
+67
+00:03:51,904 --> 00:03:56,293
+Second, the chef said it wasn’t a 
+perfect square but lied again,
+
+68
+00:03:56,294 --> 00:03:59,211
+meaning the number is indeed a square.
+
+69
+00:03:59,211 --> 00:04:03,201
+And finally, he truthfully confirmed 
+that it was also a cube.
+
+70
+00:04:03,201 --> 00:04:04,851
+And as we’ve already seen,
+
+71
+00:04:04,851 --> 00:04:10,671
+the only number under 500 that’s 
+both a square and a cube is 64.
+
+72
+00:04:10,671 --> 00:04:15,301
+You find the secret recipe and are gone 
+before anyone’s the wiser.
+
+73
+00:04:15,301 --> 00:04:17,750
+Corporate espionage is not an easy game—
+
+74
+00:04:17,750 --> 00:04:21,750
+but sometimes, that’s just 
+how the sausage is made.
+
